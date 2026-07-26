@@ -24,11 +24,6 @@ StudySync is a modern Student Productivity & Wellness Dashboard designed to help
 - Track healthy eating habits
 - Simple and organized interface
 
-### Water Tracker
-- Track daily water intake
-- Increase water count with one click
-- Reset tracker anytime
-
 ### Pomodoro Timer
 - 25-minute focus timer
 - Start, Pause, and Reset functionality
