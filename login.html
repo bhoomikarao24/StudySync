@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudySync</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body class="login-page">
+
+<div class="background"></div>
+
+<div class="theme-switch">
+
+<button id="themeBtn" onclick="toggleTheme()">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</div>
+
+<div class="login-card">
+
+<div class="logo">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+<h1>StudySync Pro</h1>
+
+<p>
+
+Study Smart • Eat Healthy • Stay Focused
+
+</p>
+
+</div>
+
+<div class="input-group">
+
+<i class="fa-solid fa-user"></i>
+
+<input
+type="text"
+id="username"
+placeholder="Username">
+
+</div>
+
+<div class="input-group">
+
+<i class="fa-solid fa-lock"></i>
+
+<input
+type="password"
+id="password"
+placeholder="Password">
+
+</div>
+
+<button class="login-btn"
+onclick="login()">
+
+Login
+
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

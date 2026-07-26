@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudySync</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="dashboard">
+
+<div class="sidebar">
+
+<div class="logo-box">
+<i class="fa-solid fa-graduation-cap"></i>
+<h2>StudySync</h2>
+</div>
+
+<button class="theme-btn" onclick="toggleTheme()">
+<i class="fa-solid fa-moon"></i>
+Theme
+</button>
+
+<ul>
+
+<li><a href="#home"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+
+<li><a href="#planner"><i class="fa-solid fa-calendar"></i> Planner</a></li>
+
+<li><a href="#tasks"><i class="fa-solid fa-list-check"></i> Tasks</a></li>
+
+<li><a href="#diet"><i class="fa-solid fa-apple-whole"></i> Diet</a></li>
+
+<li><a href="#pomodoro"><i class="fa-solid fa-clock"></i> Pomodoro</a></li>
+
+<li><a href="#analytics"><i class="fa-solid fa-chart-line"></i> Analytics</a></li>
+
+<li><a href="#settings"><i class="fa-solid fa-gear"></i> Settings</a></li>
+
+</ul>
+
+<button class="logout-btn" onclick="logout()">
+<i class="fa-solid fa-right-from-bracket"></i>
+Logout
+</button>
+
+</div>
+
+<div class="main">
+
+<header class="topbar">
+
+<div>
+
+<h1>👋 Welcome Back, <span id="username">Bhoomi</span></h1>
+
+<p>Study Smart • Eat Healthy • Stay Focused</p>
+
+</div>
+
+<div id="clock"></div>
+
+</header>
+
+<section id="home">
+
+<div class="cards">
+
+<div class="card">
+<i class="fa-solid fa-list-check"></i>
+<h2 id="taskCount">0</h2>
+<p>Tasks</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-calendar-days"></i>
+<h2 id="planCount">0</h2>
+<p>Planner</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-utensils"></i>
+<h2 id="mealCount">0</h2>
+<p>Meals</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-fire"></i>
+<h2 id="streakCount">0</h2>
+<p>Focus Streak</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="planner" class="box">
+
+<h2>📅 Daily Planner</h2>
+
+<div class="row">
+<input id="planTime" type="time">
+<input id="planTask" placeholder="Study Activity">
+<button onclick="addPlan()">Add</button>
+</div>
+
+<div id="planList"></div>
+
+</section>
+
+<section id="tasks" class="box">
+
+<h2>✅ Tasks</h2>
+
+<div class="row">
+<input id="taskInput" placeholder="Enter Task">
+<button onclick="addTask()">Add</button>
+</div>
+
+<div id="taskList"></div>
+
+</section>
+
+<section id="diet" class="box">
+
+<h2>🍎 Diet Tracker</h2>
+
+<div class="row">
+<input id="meal" placeholder="Meal Name">
+<input id="calories" type="number" placeholder="Calories">
+<button onclick="addMeal()">Add</button>
+</div>
+
+<div id="dietList"></div>
+
+</section>
+
+<section id="pomodoro" class="box">
+
+<h2>⏱ Pomodoro Timer</h2>
+
+<div class="timer">
+
+<h1 id="time">25:00</h1>
+
+<button onclick="startTimer()">Start</button>
+
+<button onclick="resetTimer()">Reset</button>
+
+</div>
+
+</section>
+
+<section id="analytics" class="box">
+
+<h2>📊 Analytics</h2>
+
+<canvas id="chart"></canvas>
+
+</section>
+
+<section id="settings" class="box">
+
+<h2>⚙ Settings</h2>
+
+<button onclick="clearData()">Clear All Data</button>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
