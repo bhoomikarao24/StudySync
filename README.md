@@ -94,7 +94,7 @@ or use **Live Server** in Visual Studio Code.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 images/
 ![alt text](images/login.png)
@@ -106,7 +106,7 @@ images/
 ![alt text](images/Analytics.png)
 ![alt text](images/setting&DarkTheme.png)
 
-## 💡 Future Improvements
+## Future Improvements
 
 - User Authentication
 - Cloud Database Integration
@@ -119,13 +119,13 @@ images/
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The primary objective of StudySync is to improve students' productivity while encouraging healthy daily habits through a simple and interactive dashboard.
 
 ---
 
-## 🌟 Key Highlights
+## Key Highlights
 
 - Student-friendly UI
 - Fully Responsive Design
@@ -138,7 +138,7 @@ The primary objective of StudySync is to improve students' productivity while en
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Bhoomika**
 B.Tech Student
@@ -147,13 +147,13 @@ Passionate about Web Development, AI, and Building Student Productivity Applicat
 
 ---
 
-## 📄 License
+## License
 
 This project is created for educational and learning purposes.
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project:
 
